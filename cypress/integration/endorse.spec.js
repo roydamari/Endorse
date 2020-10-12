@@ -1,7 +1,5 @@
 const links = [
-    'https://www.linkedin.com/in/nitzan-listman-232a391b6/',
-    'https://www.linkedin.com/in/matan-greenvald-9476b3183/',
-    'https://www.linkedin.com/in/royc67/']
+    'https://www.linkedin.com/in/roy-damari-26307a1b7/']
 
 describe("endorse", () => {
     it("endorse", () => {
