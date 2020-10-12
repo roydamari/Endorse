@@ -9,9 +9,11 @@ describe("endorse", () => {
         cy.get('.input__input')
             .each(($el, index) => {
                 if (index === 0) {
-                    cy.wrap($el).type('roydamari92@gmail.com');
+                    //enter your email here
+                    cy.wrap($el).type('<email>');
                 } else {
-                    cy.wrap($el).type('252599Roy');
+                    //enter your password here
+                    cy.wrap($el).type('<password>');
                 }
             });
         cy.get('.sign-in-form__submit-button').click();
